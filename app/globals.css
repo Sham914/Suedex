@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html { scroll-behavior: auto; }
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+body { background: #FAF8F3; color: #1B1817; -webkit-font-smoothing: antialiased; }
+::selection { background: #C82006; color: #FAF8F3; }
+:focus-visible { outline: 2px solid #C82006; outline-offset: 3px; }
+.on-dark :focus-visible { outline-color: #FAF8F3; }
+
+@layer components {
+  .display { @apply font-display font-black uppercase leading-[0.86] tracking-[-0.045em]; }
+  .hero-section__grid { position: absolute; inset: 0; opacity: .45; background-image: linear-gradient(rgba(23,22,20,.07) 1px, transparent 1px), linear-gradient(90deg, rgba(23,22,20,.07) 1px, transparent 1px); background-size: 8vw 8vw; mask-image: linear-gradient(90deg, black, transparent 65%); z-index: -2; }
+  .hero-section__ghost { position: absolute; right: -5vw; top: 20%; font-size: clamp(100px, 22vw, 330px); font-weight: 800; letter-spacing: -.1em; color: rgba(201,38,24,.07); z-index: -1; }
+  .label { @apply font-display text-[11px] font-bold uppercase tracking-[0.18em]; }
+  .section-pad { @apply px-5 py-[clamp(96px,14vw,200px)] md:px-10; }
+  .wrap { @apply mx-auto w-full max-w-[1440px]; }
+  .btn { @apply inline-flex h-12 min-w-[44px] items-center justify-center px-7 font-display text-[12px] font-extrabold uppercase tracking-[0.16em] transition-colors duration-300 ease-luxe; }
+  .btn-red { @apply bg-red text-ivory hover:bg-oxblood; }
+  .btn-line { @apply border border-current hover:bg-ink hover:text-ivory; }
+  .on-dark .btn-line { @apply hover:bg-ivory hover:text-ink; }
+}
+
+.link-underline { background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat; transition: background-size .5s cubic-bezier(.22,1,.36,1), color .3s; }
+.link-underline:hover { background-size: 100% 1px; }
+
+.link-underline { background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat; transition: background-size .5s cubic-bezier(.22,1,.36,1), color .3s; }
+.link-underline:hover { background-size: 100% 1px; }
