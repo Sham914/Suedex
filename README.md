@@ -1,4 +1,4 @@
-# SUedex
+# Suedex
 
 **Premium men's clothing. Thodupuzha, Idukki, Kerala.**
 
@@ -6,9 +6,9 @@ Established 2026 · Opening **October 31, 2026**
 
 ---
 
-## About SUedex
+## About Suedex
 
-SUedex is a men's clothing brand opening its first store in Thodupuzha, Idukki, Kerala.
+Suedex is a men's clothing brand opening its first store in Thodupuzha, Idukki, Kerala.
 
 The idea is simple: modern menswear should feel confident, refined, and effortless. SUedex curates pieces that look sharp, fit well, and work across an everyday wardrobe.
 
@@ -21,7 +21,7 @@ The idea is simple: modern menswear should feel confident, refined, and effortle
 | **Store address** | To be announced |
 | **Opening hours** | To be announced |
 
-## What SUedex offers
+## What Suedex offers
 
 A curated range of men's clothing across these categories:
 
@@ -36,7 +36,7 @@ The pieces shown on the website are a preview of the range. Final products, avai
 
 ## About this website
 
-This repository is the official launch website for SUedex. Before the store opens, the site lets visitors:
+This repository is the official launch website for Suedex. Before the store opens, the site lets visitors:
 
 - Get a first look at the brand and the Best Picks collection
 - See where and when the store is opening
@@ -52,4 +52,4 @@ This repository is the official launch website for SUedex. Before the store open
 
 Product images, prices, and some details on the site are placeholders until final information is confirmed.
 
-© 2026 SUedex. All rights reserved.
+© 2026 Suedex. All rights reserved.
